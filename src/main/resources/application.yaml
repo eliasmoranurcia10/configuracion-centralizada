@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: configuracion-centralizada
+
+  cloud:
+    config:
+      server:
+
+
+server:
+  port: 8888
+
+user:
+  role: Admin
+
+welcome:
+  message: Bienvenidos a Spring Cloud de Configuracion centralizada
