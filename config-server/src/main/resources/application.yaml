@@ -5,13 +5,8 @@ spring:
   cloud:
     config:
       server:
-
+        git:
+          uri: https://github.com/eliasmoranurcia10/configuracion-centralizada.git
 
 server:
   port: 8888
-
-user:
-  role: Admin
-
-welcome:
-  message: Bienvenidos a Spring Cloud de Configuracion centralizada
